@@ -21,7 +21,8 @@ Projet réalisé en équipe, en méthode Scrum, dans le cadre du **BTS SIO optio
 | Prénom Nom | Pseudo GitHub | Scrum Master au sprint |
 |---|---|---|
 | Harris Benserade | K-O-R-A-T | sprint 1 |
-| Farah Mezdari | farahymezdari | ...... |
+| Farah Mezdari | farahymezdari | sprint 3 |
+| Najibullah EBRAHIMI | Najib-75 | sprint 2 |
 
 ---
 
