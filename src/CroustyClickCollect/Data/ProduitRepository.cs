@@ -43,7 +43,7 @@ public class ProduitRepository
         //   Indice   : même principe que GetSauces() juste au-dessus. Les noms des
         //              colonnes de la table « produit » sont dans sql/01-schema.sql.
         using var connexion = _bdd.CreerConnexion();
-        string sql = "SELECT * FROM produit WHERE est_actif = 1 ORDER BY categorie, libelle";
+        string sql = "SELECT * FROM produit WHERE actif = 1 ORDER BY categorie, libelle";
         return connexion.Query<Produit>(sql).ToList();
     }
 
