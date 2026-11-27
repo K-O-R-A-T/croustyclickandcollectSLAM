@@ -59,6 +59,6 @@ public static class PanierService
         //   Consigne : renvoyer true si on peut ajouter « quantite » articles sans
         //              dépasser ArticlesMaximum, false sinon.
         //   Indice   : utilisez CompterArticles(panier).
-        return true;
+        return CompterArticles(panier) + quantite <= ArticlesMaximum;
     }
 }
