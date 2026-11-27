@@ -55,6 +55,10 @@ else
                                             la ligne à l'action Retirer de PanierController.
                                  Indice   : imitez le formulaire « Ajouter » de Views/Carte/Index.cshtml,
                                             avec un champ caché nommé « position ». *@
+                            <form asp-controller="Panier" asp-action="Retirer" method="post">
+                                <input type="hidden" name="position" value="@position" />
+                                <button type="submit" class="btn btn-sm btn-outline-danger">Retirer</button>
+                            </form>
                         </td>
                     </tr>
                 }
