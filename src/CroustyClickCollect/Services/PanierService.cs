@@ -32,7 +32,7 @@ public static class PanierService
         //   Indice   : parcourez le panier avec foreach et comparez ProduitId ET SauceId.
         //              Une méthode s'arrête tout de suite avec « return; ».
     }
-
+//TODO S3-04
     public static decimal CalculerTotal(List<LignePanier> panier)
 {
     decimal total = 0;
@@ -44,7 +44,7 @@ public static class PanierService
 
     return total;
 }
-
+//TODO S3-05
     public static void Retirer(List<LignePanier> panier, int position)
 {
     if (position >= 0 && position < panier.Count)
